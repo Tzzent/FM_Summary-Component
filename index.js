@@ -14,7 +14,7 @@ const main = async () => {
     summaryContainer.innerHTML += `
        <div class='card ${d.category}'>
           <div class='category'>
-            <img src='${d.icon} alt='${d.category}'/>
+            <img src='${d.icon}' alt='${d.category}'/>
             <p class='title${idx + 1}'>${d.category}</p>
           </div>
           <div class='points'>
